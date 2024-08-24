@@ -1,0 +1,157 @@
+@import "./global.css";
+
+.hero-arrial {
+  background-image: url(../images/header-bg-img.png);
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5.8rem;
+}
+.new-arrial-main {
+  border-radius: 10px;
+  max-width: 64.3rem;
+  max-height: 44.3rem;
+  background-color: #fff3e3;
+  padding: 6.2rem 4.3rem 3.7rem 3.9rem;
+}
+
+.new-arrial-main h1 {
+  padding-top: 4px;
+  max-width: 40rem;
+  font-size: var(--h1-fs);
+  line-height: var(--h1-ln);
+  color: var(--dark-yelow);
+}
+.new-arrial-main p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding: 1.7rem 0 4.6rem 0;
+}
+.browse-main {
+  text-align: center;
+}
+.browse-main h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h2-ln);
+  color: var(--light-black);
+}
+.browse-main p {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+  color: var(--light-gray);
+  padding-bottom: 6.3rem;
+}
+.dining-living-bedroom-main {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.dining-living-bedroom-item h3 {
+  font-size: var(--h3-fs);
+  line-height: var(--h3-ln);
+  text-transform: capitalize;
+  padding: 3rem 0 5.6rem 0;
+  color: var(--light-black);
+}
+.products-main h2 {
+  text-align: center;
+  font-size: var(--h2-fs);
+  line-height: var(--h2-ln);
+  color: var(--light-black);
+  text-transform: capitalize;
+  padding-bottom: 3.2rem;
+}
+.products-all-box {
+  display: flex;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+}
+.products-all-box h4 {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  padding: 1.6rem 0 0.8rem 1.6rem;
+  text-transform: capitalize;
+}
+.products-all-box p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding: 0 0 0.8rem 1.6rem;
+  text-transform: capitalize;
+  color: #898989;
+}
+strong {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-left: 1.6rem;
+}
+
+strong u {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #b0b0b0;
+}
+.products-item {
+  background-color: #f4f5f7;
+  padding-bottom: 3rem;
+}
+.btn-2 {
+  margin: 0 auto;
+}
+.products-main a {
+  text-align: center;
+  display: flex;
+  padding-top: 3.2rem;
+  padding-bottom: 6.9rem;
+}
+.beautiful-rooms-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7rem;
+}
+.section-3 {
+  background-color: var(--dark-white);
+}
+.beautiful-room-title {
+  padding-left: 10.4rem;
+  padding-right: 3rem;
+}
+.beautiful-room-title h2 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: var(--light-black);
+  text-transform: capitalize;
+  width: 42.2rem;
+}
+.beautiful-room-title p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+  color: #898989;
+  width: 36.8rem;
+  padding: 0.7rem 0 2.5rem 0;
+}
+.furniture-main {
+  text-align: center;
+  position: relative;
+}
+.furniture-main h4 {
+  padding-top: 7rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #616161;
+}
+.furniture-main h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h2-ln);
+  color: var(--gray);
+}
+.furniture-img {
+  position: absolute;
+  top: 8rem;
+}

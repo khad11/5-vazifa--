@@ -1,0 +1,25 @@
+.header_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.9rem 10rem 2.9rem 5.4rem;
+}
+.menu {
+  display: flex;
+  gap: 7.5rem;
+  align-items: center;
+}
+.menu-icon {
+  display: flex;
+  gap: 4.5rem;
+}
+.menu li a {
+  color: var(--black);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
