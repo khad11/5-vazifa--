@@ -66,6 +66,7 @@
 }
 .products-all-box {
   display: flex;
+  justify-content: center;
   gap: 3.2rem;
   flex-wrap: wrap;
 }
@@ -138,7 +139,9 @@ strong u {
 }
 .furniture-main {
   text-align: center;
-  position: relative;
+}
+.furniture-all {
+  /* position: relative; */
 }
 .furniture-main h4 {
   padding-top: 7rem;
@@ -150,8 +153,4 @@ strong u {
   font-size: var(--h2-fs);
   line-height: var(--h2-ln);
   color: var(--gray);
-}
-.furniture-img {
-  position: absolute;
-  top: 8rem;
 }

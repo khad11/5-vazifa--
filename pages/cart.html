@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>furino-cart</title>
+    <link rel="stylesheet" href="../main/cart.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_main container">
+        <a href="../index.html">
+          <img src="../images/icons/furino-logo.svg" alt="furino-logo"
+        /></a>
+        <ul class="menu">
+          <li><a href="../index.html">home</a></li>
+          <li><a href="./pages/shop.html"> shop </a></li>
+          <li><a href="./pages/.about.html">about</a></li>
+          <li><a href="./pages/contact.html">contact</a></li>
+        </ul>
+        <div class="menu-icon">
+          <a href="./cart.html"
+            ><img src="../images/icons/nav-icon-1.svg" alt="furino"
+          /></a>
+          <a href="#"
+            ><img src="../images/icons/nav-icon-2.svg" alt="furniro"
+          /></a>
+          <a href="#"
+            ><img src="../images/icons/nav-icon-3.svg" alt="furino"
+          /></a>
+          <a href="#"
+            ><img src="../images/icons/nav-icon-4.svg" alt="furino"
+          /></a>
+        </div>
+      </div>
+      <div class="shop-main container">
+        <img src="../images/shop-bg.png" alt="shop-bg" />
+        <div class="shop-title">
+          <h1>Cart</h1>
+          <p>Home > cart</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="cart-main container">
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="product-details">
+                  <img src="../images/sofa.png" alt="Asgaard sofa" />
+                  <span>Asgaard sofa</span>
+                </td>
+                <td>Rs. 250,000.00</td>
+                <td>
+                  <input type="number" value="1" min="1" />
+                </td>
+                <td>Rs. 250,000.00</td>
+                <td>
+                  <button class="delete-button">
+                    <img src="../images/delete-btn.svg" />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="totals">
+              <div class="totals-row">
+                <span>Subtotal</span>
+                <span>Rs. 250,000.00</span>
+              </div>
+              <div class="totals-row-total">
+                <span>Total</span>
+                <span>Rs. 250,000.00</span>
+              </div>
+            </div>
+            <div class="check-btn">
+              <button class="checkout-button">Check Out</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-shop-feature">
+        <div class="container">
+          <img class="feature" src="../images/Feature.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr class="top-hr" />
+      <div class="furino-footer-main container">
+        <div class="furino-title">
+          <h3>Funiro</h3>
+          <p>
+            400 University Drive Suite 200 <br />
+            Coral Gables,<br />
+            FL 33134 USA
+          </p>
+        </div>
+        <ul class="footer-menu-1">
+          <p>links</p>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./pages/">shop</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+        <ul class="footer-menu-2">
+          <p>help</p>
+          <li><a href="#">Payment Options</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <form class="form-footer">
+          <p>Newsletter</p>
+          <label class="label-footer">
+            <input type="email" placeholder="Enter Your Email Address" />
+            <input type="button" value="SUBSCRIBE" />
+          </label>
+        </form>
+      </div>
+      <hr class="bottom-hr" />
+      <div class="container">
+        <p>2023 furino. All rights reverved</p>
+      </div>
+    </footer>
+  </body>
+</html>

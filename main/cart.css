@@ -1,0 +1,137 @@
+@import "./global.css";
+@import "./shop.css";
+.cart-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+.cart-table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 16px;
+  text-align: left;
+}
+.cart-table th {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cart-table th {
+  background-color: #f9f1e7;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+}
+
+.product-details img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding-top: 4.3rem;
+}
+
+.product-details span {
+  font-size: 18px;
+  color: #9f9f9f;
+  /* padding-top: 4.3rem; */
+}
+
+.cart-totals {
+  width: 30%;
+  background-color: #f9f1e7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+
+.cart-totals h2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6rem;
+  font-size: var(--h2-fs);
+  line-height: var(--h2-ln);
+  text-transform: capitalize;
+}
+
+.totals {
+  padding-bottom: 4.2rem;
+}
+
+.totals-row {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  padding-bottom: 3rem;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+}
+
+.totals-row span:nth-child(2) {
+  color: #9f9f9f;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.totals-row-total {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+}
+.totals-row-total span:nth-child(2) {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #b88e2f;
+}
+.checkout-button {
+  padding: 15px 58px;
+  font-size: 2rem;
+  line-height: 3rem;
+  background-color: #f9f1e7;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.check-btn {
+  display: flex;
+  justify-content: center;
+}
+.checkout-button:hover {
+  background-color: #d4a256;
+  color: #ffffff;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button:hover {
+  color: #000000;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
